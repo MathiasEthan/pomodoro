@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 10%;
+  padding-top: 1%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.timerCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  
+}
+.timerCard p {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 70px;
+}
+
+.timerContainer { 
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
+  margin-left: 430px;
+  /*TODO make margin-left responsive*/
+}
+

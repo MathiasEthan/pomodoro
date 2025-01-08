@@ -1,5 +1,3 @@
-import { useState } from 'react'
-//import './App.css'
 import Navbar from './components/navbar'
 import Timer from './components/timer'
 import TimerForm from './components/timerForm'
@@ -14,7 +12,7 @@ function App() {
     accentColor='gold' 
     appearance='dark'
     panelBackground='transparent'
-    radius='medium'
+    radius="large"
     >
       <Navbar />
       <Timer />
